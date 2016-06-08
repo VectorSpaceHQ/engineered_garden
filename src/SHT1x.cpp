@@ -19,12 +19,17 @@
 
 SHT1x::SHT1x(int dataPin, int clockPin)
 {
-  _dataPin = dataPin;
-  _clockPin = clockPin;
+    setPins( dataPin, clockPin );
 }
 
 
 /* ================  Public methods ================ */
+
+void SHT1x::setPins( int dataPin, int clockPin )
+{
+    _dataPin = dataPin;
+    _clockPin = clockPin;
+}
 
 /**
  * Reads the current temperature in degrees Celsius

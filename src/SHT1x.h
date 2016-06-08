@@ -21,7 +21,8 @@
 class SHT1x
 {
   public:
-    SHT1x(int dataPin, int clockPin);
+    SHT1x(int dataPin=-1, int clockPin=-1);
+    void setPins( int dataPin, int clockPin );
     float readHumidity();
     float readTemperatureC();
     float readTemperatureF();
