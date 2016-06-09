@@ -45,6 +45,9 @@ There are four sensors being used.
   - pH
   - Light
 
+### pH
+pH is be measured using the Atlas Scientific sensor from Sparkfun.
+https://www.sparkfun.com/products/10972
 
 ### Moisture
 There is one SHT10 humidity sensor in each bed, which senses humidity and temperature. Recommended supply voltage is 3.3V.
